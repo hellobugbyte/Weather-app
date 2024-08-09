@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fasthand', serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.weather {
+  display:flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 1.5rem;
+}
+
+#location {
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.desc {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+
+.circle {
+  background-color: black;
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+  margin: 0 15px;
+}
+
+.yellowbg {
+background: rgb(251, 242, 133);
+background: radial-gradient(
+  circle,
+  rgba(251, 242, 133, 0.6334908963585435) 0%,
+  rgba(224, 196, 91, 0.8407738095238095) 35%,
+  rgba(230, 224, 113, 1) 100%
+);
+}
+
+.greybg {
+  background: rgb(218, 221, 221);
+  background: radial-gradient(
+    circle,
+    rgba(58, 58, 58, 0.614) 0%,
+    rgba(130, 129, 129, 0.841) 35%,
+    rgb(232, 232, 230) 100%
+  );
+}
+
+.greybluebg {
+  background: rgb(130, 170, 205);
+  background: radial-gradient(
+    circle,
+    rgba(154, 168, 214, 0.633) 0%,
+    rgba(210, 210, 210, 0.841) 35%,
+    rgb(144, 156, 183) 100%
+  );
+}
+
+.bluebg {
+  background: rgb(133, 153, 251);
+  background: radial-gradient(
+    circle,
+    rgba(59, 62, 75, 0.633) 0%,
+    rgba(79, 79, 96, 0.841) 35%,
+    rgb(114, 120, 165) 100%
+  );
+}
